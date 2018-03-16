@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "plotfs", "plotfs\plotfs.fsproj", "{C76BE1AA-31EE-4A9B-BCD1-E4FC77F5E158}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PlotFS", "plotfs\PlotFS.fsproj", "{C76BE1AA-31EE-4A9B-BCD1-E4FC77F5E158}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PlotFS.Test", "PlotFS.Test\PlotFS.Test.fsproj", "{292CC061-522B-4882-8E8D-3FF522800D63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C76BE1AA-31EE-4A9B-BCD1-E4FC77F5E158}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C76BE1AA-31EE-4A9B-BCD1-E4FC77F5E158}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C76BE1AA-31EE-4A9B-BCD1-E4FC77F5E158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{292CC061-522B-4882-8E8D-3FF522800D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292CC061-522B-4882-8E8D-3FF522800D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292CC061-522B-4882-8E8D-3FF522800D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292CC061-522B-4882-8E8D-3FF522800D63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
